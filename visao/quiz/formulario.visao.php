@@ -9,5 +9,10 @@
         <label for="r3"><?=$quiz['r3']?></label><br>
         <input type="radio" id="r4" name="r" value="<?=@$quiz['r4']?>">
         <label for="r4"><?=$quiz['r4']?></label><br>
+
+        <input type="hidden" name="quest" id="quest" value="<?=@$quiz['quest']?>">
+        <input type="hidden" name="rcerta" id="rcerta" value="<?=@$quiz['rcerta']?>">
+        <input type="hidden" name="id" id="id" value="<?=@$quiz['id']?>">
+
         <button type="submit">Enviar</button>
     </form>

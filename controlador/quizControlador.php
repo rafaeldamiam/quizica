@@ -3,19 +3,27 @@
 require_once "modelo/quizModelo.php";
 
 /** anon */
-function sortear($id) {
-    $dados["quiz"] = sortearPegarQuestao($id);
-    exibir("quiz/formulario", $dados);
-}
-
-/** anon */
 function adicionar() {
     if (ehPost()) {
-        $quiz = $_POST["quiz"];
-        dd($quiz);
-        alert(adicionarQuiz($quest, $r1, $r2, $r3, $r4, $rcerta));
-        //redirecionar("quiz/sortear");
+        $quiz["quest"] = $_POST["quest"];
+        $quiz["r"] = $_POST["r"];
+        $quiz["rcerta"] = $_POST["rcerta"];
+        $quiz["id"] = $_POST["id"];
+        /* dd($quiz); */
+        if($quiz["r"] == $quiz["rcerta"]){
+            echo("acertou");
+            /* alert(acertou()); */
+            $dados["quiz"] = sortearPegarQuestao();
+            exibir("quiz/formulario", $dados);
+        }else{
+            echo("errou");
+            /* alert(errou()); */
+            $dados["quiz"] = sortearPegarQuestao();
+            exibir("quiz/formulario", $dados);
+        }
+        
     } else {
-        exibir("quiz/erro");
+        $dados["quiz"] = sortearPegarQuestao();
+        exibir("quiz/formulario", $dados);
     }
 }

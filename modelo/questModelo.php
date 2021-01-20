@@ -21,6 +21,21 @@ function pegarQuestaoPorId($id) {
     return $quest;
 }
 
+function pegarQuestaoPorIdSor($id, $id_sort) {
+    $cnx = conn();
+    $sql = "SELECT * FROM quest WHERE id = '$id_sort'";
+    $resultado = $cnx->query($sql);
+    while ($col = $resultado->fetchArray(SQLITE3_ASSOC)) {
+        if($quest["id"] != $id){
+            $quest = $col;
+        }else{
+            sortearPegarQuestaoId($id);
+        }
+		
+	}
+    return $quest;
+}
+
 function adicionarQuestao($quest, $r1, $r2, $r3, $r4, $rcerta) {
     $cnx = conn();
     $sql = "INSERT INTO quest(quest, r1, r2, r3, r4, rcerta) 
