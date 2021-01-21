@@ -57,7 +57,7 @@ $n = 5;
             }
 
             if($_SESSION["erros"] == $n){
-                echo "<h3>Você errou todas, parabens!</h3>";
+                echo "<h3>Parabéns!!! Você errou todas, falhou com sucesso!</h3>";
                 echo "<h3>(´･_･`)</h3>";
             }
             echo "Acertos: ". $_SESSION["acertos"]."<br>";
