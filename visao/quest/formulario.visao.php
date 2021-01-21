@@ -1,4 +1,4 @@
-<form action=" " method="POST">
+<form action="" method="POST">
     Questão: <input type="text" name="quest" value="<?=@$quest['quest']?>">
     Resposta 1: <input type="text" name="r1" value="<?=@$quest['r1']?>">
     Resposta 2: <input type="text" name="r2" value="<?=@$quest['r2']?>">

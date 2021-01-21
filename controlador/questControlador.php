@@ -18,7 +18,7 @@ function adicionar() {
         $r4 = $_POST["r4"];
         $rcerta = $_POST["rcerta"];
         alert(adicionarQuestao($quest, $r1, $r2, $r3, $r4, $rcerta));
-        redirecionar("quest");
+        redirecionar("quest/");
     } else {
         exibir("quest/formulario");
     }
