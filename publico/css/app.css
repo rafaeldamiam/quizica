@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 2%;
     text-align: justify;
@@ -14,4 +14,24 @@ body {
 .fonte-quiz{
     font-family: CosmicBlaster;
     font-size:5rem;
+}
+.fonte-quiz2{
+    font-family: CosmicBlaster;
+    
+}
+.footer {
+    position: fixed;
+    bottom:0;
+}
+
+.btn-warning2 {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107
+}
+
+.btn-warning2:hover {
+    color: white;
+    background-color: black;
+    border-color: #d39e00
 }

@@ -1,1 +1,1 @@
-<p>Developed by: Rafael Damiam e Pedro Gois</p>
+<footer class="blockquote-footer">Developed by : <cite>Rafael Damiam e Pedro Gois</cite></footer> 

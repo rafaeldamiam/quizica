@@ -14,11 +14,20 @@
         <script src="https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js"></script>
     </head>
     <body class="container">
-        <?php include 'cabecalho.php';?>
-
-        <main class="container">
+    <section class="nav">
+        <div class="container">
+            <?php include 'cabecalho.php';?>
+        </div>
+    </section>
+    <section class="content">
+        <main class="container p-5">
             <?php require $viewFilePath; ?>
         </main>
-        <?php include 'rodape.php';?>
+    </section>    
+    <section class="footer container">
+        <div class="container p-2">
+            <?php include 'rodape.php';?>
+        </div>
+    </section>
     </body>
 </html>
