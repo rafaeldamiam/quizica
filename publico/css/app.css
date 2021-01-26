@@ -5,3 +5,13 @@ body {
     padding: 2%;
     text-align: justify;
 }
+
+@font-face{
+    font-family: CosmicBlaster;
+    src: url(CosmicBlaster.ttf);
+}
+
+.fonte-quiz{
+    font-family: CosmicBlaster;
+    font-size:5rem;
+}

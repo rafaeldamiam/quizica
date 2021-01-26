@@ -1,1 +1,1 @@
-<p>Developed by: Rafael</p>
+<p>Developed by: Rafael Damiam e Pedro Gois</p>
