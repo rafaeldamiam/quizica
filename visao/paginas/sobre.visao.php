@@ -1,1 +1,4 @@
-<h1>Sobre</h1>
+<h1 class="text-center fonte-quiz3">Sobre</h1>
+<p class="text-justify p-2">O Quizica é um jogo desenvolvido com o objetivo de entreter os jovens e ainda por cima ensinar um pouco sobre Física. O projeto deu início em 2021 e conta com a presença de Amanda Aparecida Julio Maziero, Camile Vitoria Cunha Cardoso de Oliveira e Carolina Vianna Fernandes no desenvolvimento das questões, Lucas Fernando Assunção Cavalherie no auxílio técnico, Pedro Henrique Morais de Gois e Rafael Leandro Damiam dos Santos na construção do quiz. 
+A ideia do quiz surgiu a partir de um trabalho avaliativo para a matéria de Física, que contava com a presença do Prof. Andre Coelho da Silva, para tal instrumento avaliativo, foi solicitado o desenvolvimento de algum projeto que exponha o conteúdo aprendido durante o ano letivo, sendo assim, foi optado por um jogo em formato de quiz capaz de contemplar perguntas sobre Modelos atômicos e descoberta de partículas, Semicondutores e Supercondutores, Radioatividade, Raios X, Radiografia, Tomografia Computadorizada, PET e muitos outros temas. Esperamos que curta e se divirta com o nosso projeto feito com tanto carinho para você!
+</p>

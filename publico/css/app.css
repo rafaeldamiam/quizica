@@ -15,9 +15,33 @@ body {
     font-family: CosmicBlaster;
     font-size:5rem;
 }
+.fonte-quiz3{
+    font-family: CosmicBlaster;
+    text-decoration:none;
+    color: black;
+}
 .fonte-quiz2{
     font-family: CosmicBlaster;
+    text-decoration:none;
+    color: black;
     
+}
+
+.fonte-quiz2:hover{
+    font-family: CosmicBlaster;
+    text-decoration:none;
+    color: white;
+}
+.fonte-restart{
+    font-family: CosmicBlaster;
+    text-decoration:none;
+    color: black;
+    
+}
+.fonte-restart:hover{
+    font-family: CosmicBlaster;
+    text-decoration:none;
+    color: white;
 }
 .footer {
     position: fixed;
@@ -35,3 +59,17 @@ body {
     background-color: black;
     border-color: #d39e00
 }
+.btn-warning-red {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107
+}
+.btn-warning-red:hover {
+    color: #212529;
+    background-color: #ff0707;
+    border-color: #ffc107
+}
+.custom-radio-warning{
+    background-color: #ffc107
+}
+
