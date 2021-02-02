@@ -1,5 +1,7 @@
-<h2>Visão</h2>
-<p>id: <?=$quest['id']?></p>
+<h2>Visualizar Questão</h2>
+<br>
+<p>Questão: <?=$quest['quest']?></p>
+<br>
 <p>resposta 1: <?=$quest['r1']?></p>
 <p>resposta 2: <?=$quest['r2']?></p>
 <p>resposta 3: <?=$quest['r3']?></p>

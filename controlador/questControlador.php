@@ -8,7 +8,7 @@ function index() {
     exibir("quest/listar", $dados);
 }
 
-/** user, admin */
+/** admin */
 function adicionar() {
     if (ehPost()) {
         $quest = $_POST["quest"];
@@ -24,13 +24,13 @@ function adicionar() {
     }
 }
 
-/** user, admin */
+/** admin */
 function deletar($id) {
     alert(deletarQuestao($id));
     redirecionar("quest/index");
 }
 
-/** user, admin */
+/** admin */
 function editar($id) {
     if (ehPost()) {
         $quest = $_POST["quest"];
