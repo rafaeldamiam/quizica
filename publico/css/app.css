@@ -4,7 +4,12 @@ body {
     margin: auto;
     padding: 2%;
     text-align: justify;
+    z-index: 1;
 }
+
+/* @media screen and (min-width: 700px) and (orientation:landscape){
+
+} */
 
 @font-face{
     font-family: CosmicBlaster;
@@ -19,6 +24,7 @@ body {
     font-family: CosmicBlaster;
     text-decoration:none;
     color: black;
+    font-size: 36px;
 }
 .fonte-quiz2{
     font-family: CosmicBlaster;
@@ -48,16 +54,16 @@ body {
     bottom:0;
 }
 
-.btn-warning2 {
+.btn-inicial {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107
+    background-color: #ffffff;
+    border-color: #72145e
 }
 
-.btn-warning2:hover {
-    color: white;
-    background-color: black;
-    border-color: #d39e00
+.btn-inicial:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 0, 61);
+    border-color: #ffffff
 }
 .btn-warning-red {
     color: #212529;
@@ -70,6 +76,30 @@ body {
     border-color: #ffc107
 }
 .custom-radio-warning{
-    background-color: #ffc107
+    background-color: #620180
 }
 
+
+.bg-navbar{
+    background-color: white;
+}
+
+.bg-pagina{
+    background-color: #7c0c9e;
+}
+
+.opacidade{
+    opacity: 0.5;
+    background-color: black;
+}
+
+/* banner */
+.carousel-control-prev{
+    background-color: rgba(2, 2, 2, 0.25);
+}
+.carousel-control-next{
+    background-color: rgba(2, 2, 2, 0.25);
+}
+.bg-caption{
+    background-color: rgba(2, 2, 2, 0.600);
+}

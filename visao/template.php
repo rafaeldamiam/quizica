@@ -14,7 +14,7 @@
         <script type="text/javascript" src="./publico/js/bootstrap.min.js"></script>
         <script src="https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js"></script>
     </head>
-    <body class="container">
+    <body class="container bg-pagina">
     <section class="nav">
         <div class="container">
             <?php include 'cabecalho.php';?>

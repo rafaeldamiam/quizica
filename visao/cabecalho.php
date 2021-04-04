@@ -1,7 +1,7 @@
 <!--Para incluir o cabeçalho no seu site você precisa realizar a requisição deste arquivo `template.php`-->
 <div class="container">
   <div class="row justify-content-center">
-    <nav class="navbar navbar-expand-lg bg-warning justify-content-center col-12 rounded" id="navbar">
+    <nav class="navbar navbar-expand-sm bg-navbar justify-content-center col-12 col-sm-12 rounded" id="navbar">
       <div class="collapse navbar-collapse justify-content-center ">
       <ul class="navbar-nav ">
       <li class="nav-item">
