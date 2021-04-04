@@ -7,12 +7,12 @@
       <li class="nav-item">
         <a class="nav-link text-dark font-weight-bold" href="./">Jogar</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link text-dark font-weight-bold" href="./">|</a>
-      </li>
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
       <a class="nav-link text-dark font-weight-bold" href="paginas/sobre">Sobre</a></a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link text-dark font-weight-bold" href="./">|</a>
       </li>

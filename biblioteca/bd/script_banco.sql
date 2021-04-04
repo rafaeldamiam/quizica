@@ -19,8 +19,7 @@ CREATE TABLE quest(
 
 INSERT INTO usuario(nome, email, senha, papel) 
 VALUES
-("admin","admin@admin.com", "123", "admin"),
-("usuario","usuario@usuario.com", "123", "user");
+("admin","admin@admin.com", "123", "admin");
 
 INSERT INTO quest(quest, r1, r2, r3, r4, rcerta) 
 VALUES

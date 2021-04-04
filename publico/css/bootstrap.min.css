@@ -7,7 +7,7 @@
 
 :root {
     --blue: #007bff;
-    --indigo: #6610f2;
+    --indigo: #ffc107;
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
@@ -2589,13 +2589,13 @@ a.btn.disabled, fieldset:disabled a.btn {
 .btn-warning:hover {
     color: #212529;
     background-color: #e0a800;
-    border-color: #d39e00
+    border-color: #6f42c1
 }
 
 .btn-warning.focus, .btn-warning:focus {
     color: #212529;
     background-color: #e0a800;
-    border-color: #d39e00;
+    border-color: #6f42c1;
     box-shadow: 0 0 0 .2rem rgba(222, 170, 12, .5)
 }
 
@@ -2607,7 +2607,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
     color: #212529;
-    background-color: #d39e00;
+    background-color: #6f42c1;
     border-color: #c69500
 }
 
@@ -4930,7 +4930,7 @@ a.badge-info.focus, a.badge-info:focus {
 
 a.badge-warning:focus, a.badge-warning:hover {
     color: #212529;
-    background-color: #d39e00
+    background-color: #6f42c1
 }
 
 a.badge-warning.focus, a.badge-warning:focus {
@@ -6457,7 +6457,7 @@ a.bg-info:focus, a.bg-info:hover, button.bg-info:focus, button.bg-info:hover {
 }
 
 a.bg-warning:focus, a.bg-warning:hover, button.bg-warning:focus, button.bg-warning:hover {
-    background-color: #d39e00!important
+    background-color: #6f42c1!important
 }
 
 .bg-danger {

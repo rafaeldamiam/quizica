@@ -13,7 +13,7 @@ if(isset($_SESSION["acertos"]) || isset($_SESSION["erros"])){
 }
 
 //numero de questões
-$n = 5;
+$n = 6;
 
 ?>
 <?php if ($v < $n) :?>
@@ -21,7 +21,7 @@ $n = 5;
     <div class="row justify-content-center">
         <div class="col-4 mt-4 mb-4 rounded bg-dark"></div>
             <div class="text-center col-4">
-                <h1 class="fonte-quiz3">< QUIZICA ></h1>
+                <h2 class="fonte-quiz3">< SURPRESA ></h2>
             </div>
         <div class="col-4 mt-4 mb-4 rounded bg-dark"></div>
     </div>
@@ -66,19 +66,41 @@ $n = 5;
 
             
 </div>
+
 <?php else:?>
     <h1>Resultados</h1>
         <?php
-            if($_SESSION["acertos"] == $n){
-                echo "<h3>Você acertou todas, parabens!</h3><br>";
+        echo("<script>alert('Clique em Ok, veja o resultado e aguarde seu presente!');</script>");
+        //echo $_SESSION["acertos"]. "<br>" . $_SESSION["erros"];
+        function red($url){
+            header("refresh: 5; url=$url");
+        }
+            // acertou a maioria
+            if(($_SESSION["acertos"] > ($n/2)) && ($_SESSION["acertos"] < $n)){
+                echo "<h3>Você não acertou todas, mas mandou bem!</h3>";
+                echo "<h3>Seu presente será...</h3>";
+                red("https://drive.google.com/drive/folders/1WVnDb-I8vi0uVtRKIlLiRwiqSv2BE74E?usp=sharing");
+            //    ACERTOU TODAS
+            }elseif($_SESSION["acertos"] >= $n){
+                echo "<h3>Você acertou todas, parabens!</h3>";
                 echo "<h3>(>‿◠)✌</h3>";
+                echo "<h3>Seu presente será...</h3>";
+                red("https://drive.google.com/drive/folders/1WVnDb-I8vi0uVtRKIlLiRwiqSv2BE74E?usp=sharing");
             }
 
-            if($_SESSION["erros"] == $n){
+            //  errou a maioria
+            if(($_SESSION["erros"] >= ($n/2)) && ($_SESSION["erros"] < $n)){
+                echo "<h3>Você não errou todas, mas mandou mal ein!</h3>";
+                echo "<h3>Seu presente será...</h3>";
+                red("https://drive.google.com/drive/folders/15ikrCs7CC_CYYuGJZ8ZPKC_CtRzE1Jur?usp=sharing");
+            // ERROU TODAS    
+            }elseif($_SESSION["erros"] == $n){
                 echo "<h3>Parabéns!!! Você errou todas, falhou com sucesso!</h3>";
                 echo "<h3>(´･_･`)</h3>";
+                echo "<h3>Seu presente será...</h3>";
+                red("https://drive.google.com/drive/folders/15ikrCs7CC_CYYuGJZ8ZPKC_CtRzE1Jur?usp=sharing");
             }
-            echo "Acertos: ". $_SESSION["acertos"]."<br>";
+            echo "<br>Acertos: ". $_SESSION["acertos"]."<br>";
             echo "Erros: ". $_SESSION["erros"];     
         ?>
         <a href="./paginas/">Jogar Novamente</a>

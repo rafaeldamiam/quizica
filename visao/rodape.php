@@ -1,1 +1,1 @@
-<footer class="blockquote-footer">Developed by : <cite>Rafael Damiam</cite> | Design by : <cite>Pedro Gois</cite></footer> 
+<footer class="blockquote-footer">Joguinho feito com muito carinho por: Carolzita, Debs, Amandita, Cavalheiro, Kalu, Gato Pedro, @Rafeel_ e Rafa<b>eu</b></footer> 

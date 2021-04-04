@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="icon" href= "./publico/imgs/logo_quizica.png" type="image/x-icon">
-        <title>QUIZICA!</title>
+        <title>SURPRESA!!!</title>
         <base href="<?= URL_BASE ?>"><!--Esta instrução é super importante e não deve ser mudada!-->
 
         <link rel="stylesheet" href="./publico/css/app.css">
